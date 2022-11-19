@@ -1,0 +1,82 @@
+.footContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #9aca3b;
+    margin-top: 50px;
+    padding: 100px;
+}
+
+.land__footer_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactBox {
+    color:white;
+    margin-top: 20px;
+    border: 1px solid white; 
+    padding: 20px;
+    border-radius: 5px
+}
+
+.contactBox:hover {
+    background-color: white;
+    color: #9aca3b;
+    transition-duration: 0.7s;
+}
+
+.bigName {
+    font-size: 60px;
+    color: white; 
+    margin-bottom: 20px
+}
+
+.subName {
+    font-size: 17px;
+    color: white; 
+}
+
+.land{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.land__footer {
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .footContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bigName {
+        font-size: 28px;
+    }
+    .subName {
+        font-size: 12px
+    }
+    
+    .contactBox {
+        color: white;
+        margin-top: 10px;
+        border: 1px solid white; 
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 15px
+    }
+    .land {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .land__footer {
+        font-size: 12px;
+    }
+}
