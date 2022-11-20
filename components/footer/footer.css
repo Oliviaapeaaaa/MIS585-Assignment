@@ -1,7 +1,7 @@
 .footContainer {
     display: flex;
     flex-direction: column;
-    background-color: #9aca3b;
+    background-color: steelblue;
     margin-top: 50px;
     padding: 100px;
 }
