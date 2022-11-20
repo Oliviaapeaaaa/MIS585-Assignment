@@ -13,28 +13,28 @@
 }
 
 .contactBox {
-    color:white;
+    color:black;
     margin-top: 20px;
-    border: 1px solid white; 
+    border: 1px solid black; 
     padding: 20px;
     border-radius: 5px
 }
 
 .contactBox:hover {
-    background-color: white;
-    color: #9aca3b;
+    background-color: whitesmoke;
+    color: black;
     transition-duration: 0.7s;
 }
 
 .bigName {
     font-size: 60px;
-    color: white; 
+    color: black; 
     margin-bottom: 20px
 }
 
 .subName {
-    font-size: 17px;
-    color: white; 
+    font-size: 18px;
+    color: rgb(5, 0, 0); 
 }
 
 .land{
@@ -44,8 +44,8 @@
 }
 
 .land__footer {
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 17px;
 }
 
 @media screen and (max-width: 500px) {
@@ -63,9 +63,9 @@
     }
     
     .contactBox {
-        color: white;
+    color:black;
         margin-top: 10px;
-        border: 1px solid white; 
+        border: 1px solid black; 
         padding: 15px;
         border-radius: 5px;
         font-size: 15px
