@@ -4,9 +4,8 @@ export default function Header() {
   return (
     <header>
       <div className='container'>
-          <h2> BrightView</h2>
+          <h2>BrightView</h2>
       </div>
-      
     </header>
 
     
