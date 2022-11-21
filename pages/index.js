@@ -7,7 +7,7 @@ import { sortByDate } from '../utils'
 
 export default function Home({ posts }) {
   return (
-    <div>
+    <>
       <Head>
         <title>Dev Blog</title>
       </Head>
@@ -16,11 +16,11 @@ export default function Home({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
-    </div>
+    </>
   )
 }
 
-export async function getStaticProps() {
+export function getStaticProps() {
   // Get files from the posts dir
   const files = fs.readdirSync(path.join('posts'))
 
